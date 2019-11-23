@@ -12,7 +12,7 @@ export class FooterComponent implements OnInit {
 
   button = {
     text : 'CHECKOUT',
-    style : 'cart-button'
+    style : 'button checkout-button'
   };
 
   constructor() { }

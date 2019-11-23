@@ -7,7 +7,7 @@
 .product-list{
     width:70%; 
     margin:auto;
-    /* font-size: 25px; */
+    font-family: sans-serif;
 }
 
 .product-list > h2{
@@ -23,7 +23,7 @@
 }
 
 .footer-text{
-    width : 80%;
+    width : 70%;
 }
 
 .footer-text > div{
@@ -65,13 +65,17 @@
 }
 
 .individual-count{
-    width: 10%;
-    /* position: absolute;
-    top : 65%;
-    left : 55%; */
+    padding: 5px;
 }
 .brand-div{
     color: #447c2b;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-div{
+    line-height: 1.5;
 }
 
 .float-right{
@@ -92,7 +96,6 @@
     border-radius: 5px;
     font-weight: bold;
     width: 70%;
-    text-align: center;
 }
 
 .add-button{
@@ -100,8 +103,6 @@
     border : solid #72D713;
     border-radius: 20px;
     font-weight: bold;
-    width: 20%;
-    text-align: center;
 }
 
 .reduce-button{
@@ -109,6 +110,16 @@
     border : solid #72D713;
     border-radius: 20px;
     font-weight: bold;
-    width: 20%;
+}
+
+.checkout-button{
+    background-color : #72D713;
+    border : solid #72D713;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 35px;
+}
+
+.button{
     text-align: center;
 }

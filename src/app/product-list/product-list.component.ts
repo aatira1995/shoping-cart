@@ -12,17 +12,16 @@ export class ProductListComponent implements OnInit {
   products: any;
   cartButton = {
     text : 'ADD CART',
-    style : 'cart-button'
+    style : 'button cart-button'
   };
   addButton = {
     text : '+',
-    style : 'add-button'
+    style : 'button add-button'
   };
   reduceButton = {
     text : '-',
-    style : 'reduce-button'
+    style : 'button reduce-button'
   }
-  value = 0;
   quantity = 0;
   total = 0;
 
@@ -46,23 +45,17 @@ export class ProductListComponent implements OnInit {
     });
   }
 
-  increaseCartItem(id){
-    this.products.forEach(element => {
-      if(element.pid == id){
-        element.value += 1;
-      }
-    });
+  increaseCartItem(id, index){
+    let element = this.products[index];
+    element.value += 1;
     this.updateTotalQuantity();
     this.updateTotalPrice();
   }
 
-  reduceCartItem(id){
-    this.products.forEach(element => {
-      if(element.pid == id){
-        element.value -= 1;
-        element.value > 0 ? element.value = element.value : element.value = 0;
-      }
-    });
+  reduceCartItem(id, index){
+    let element = this.products[index];
+    element.value -= 1;
+    element.value > 0 ? element.value = element.value : element.value = 0;
     this.updateTotalQuantity();
     this.updateTotalPrice();
   }
