@@ -1,0 +1,102 @@
+[
+    {
+        "pid" : "pd100",
+        "brandName" : "Nestle",
+        "productName" : "Nescafé",
+        "quantity" : "1 Kg",
+        "price" : 53,
+        "mrf" : 48,
+        "url" : "./assets/nescafe-coffee.jpg",
+        "offerText" : "18% OFF"
+    },
+    {
+        "pid" : "pd101",
+        "brandName" : "Pepsico",
+        "productName" : "Quaker Oats",
+        "quantity" : "1 Kg",
+        "price" : 104,
+        "mrf" : 98,
+        "url" : "./assets/quaker-oats.jpg",
+        "offerText" : "21% OFF"
+    },
+    {
+        "pid" : "pd102",
+        "brandName" : "Unilever",
+        "productName" : "Surf Excel",
+        "quantity" : "1 kg",
+        "price" : 78,
+        "mrf" : 65,
+        "url" : "./assets/surf-excel.jpg",
+        "offerText" : "16% OFF"
+    },
+    {
+        "pid" : "pd103",
+        "brandName" : "Mondelez International",
+        "productName" : "BelVita",
+        "quantity" : "1 Kg",
+        "price" : 89,
+        "mrf" : 77,
+        "url" : "./assets/belvita.jpg",
+        "offerText" : "18% OFF"
+    },
+    {
+        "pid" : "pd104",
+        "brandName" : "Coca-cola",
+        "productName" : "Coca-cola",
+        "quantity" : "500 ml",
+        "price" : 35,
+        "mrf" : 30,
+        "url" : "./assets/cola.jpg",
+        "offerText" : "18% OFF"
+    },
+    {
+        "pid" : "pd105",
+        "brandName" : "Associated British Foods",
+        "productName" : "Pringles",
+        "quantity" : "50 g",
+        "price" : 20,
+        "mrf" : 18,
+        "url" : "./assets/pringles.jpg",
+        "offerText" : "9% OFF"
+    },
+    {
+        "pid" : "pd106",
+        "brandName" : "Mars",
+        "productName" : "Snickers",
+        "quantity" : "1",
+        "price" : 35,
+        "mrf" : 35,
+        "url" : "./assets/snickers.jpg",
+        "offerText" : ""
+    },
+    {
+        "pid" : "pd107",
+        "brandName" : "Danone",
+        "productName" : "Dexolac",
+        "quantity" : "1 kg",
+        "price" : 224,
+        "mrf" : 202,
+        "url" : "./assets/dexolac.jpg",
+        "offerText" : "18% OFF"
+    },
+    {
+        "pid" : "pd108",
+        "brandName" : "General Mills",
+        "productName" : "Cheerios oats crunch",
+        "quantity" : "500 g",
+        "price" : 174,
+        "mrf" : 156,
+        "url" : "./assets/cheerios.jpg",
+        "offerText" : "20% OFF"
+    },
+    {
+        "pid" : "pd109",
+        "brandName" : "Kellogg’s",
+        "productName" : "Corn flakes",
+        "quantity" : "1 kg",
+        "price" : 78,
+        "mrf" : 78,
+        "url" : "./assets/kellogs.jpg",
+        "offerText" : ""
+    }
+]
