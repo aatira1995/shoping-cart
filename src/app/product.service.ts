@@ -1,6 +1,4 @@
 import { Injectable } from '@angular/core';
-import * as products from '../../data/products.json';
-import { Observable, of } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -9,7 +7,13 @@ export class ProductService {
 
   constructor() { }
 
-  getProducts() : Observable<any>{
-    return of(products);
+  async getProducts() : Promise<any>{
+    try{
+      const response = await fetch('../assets/data/products.json');
+      const products = response.json();
+      return products;
+    }catch(error){
+      console.log(error);
+    }
   }
 }
