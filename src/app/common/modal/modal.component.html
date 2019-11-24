@@ -1,1 +1,10 @@
-<p>modal works!</p>
+<div class="text-center">
+    <h1 mat-dialog-title>Thanks for shopping with us</h1>
+<div mat-dialog-content>
+  <p>Amount {{data.total}}</p>
+  <p>Transaction is successful</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()" cdkFocusInitial  style="margin:auto">Close</button>
+</div>
+</div>

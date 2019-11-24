@@ -1,4 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
+import { ModalComponent } from '../modal/modal.component';
 
 @Component({
   selector: 'app-footer',
@@ -15,9 +17,20 @@ export class FooterComponent implements OnInit {
     style : 'button checkout-button'
   };
 
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
 
   ngOnInit() {
+  }
+
+  openDialog(): void {
+    const dialogRef = this.dialog.open(ModalComponent, {
+      height: '300px',
+      width: '400px',
+      data: { total: this.total}
+    });
+
+    dialogRef.afterClosed().subscribe(res => {
+    });
   }
 
 }
