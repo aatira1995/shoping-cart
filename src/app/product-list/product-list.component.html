@@ -3,7 +3,7 @@
     <div *ngFor = "let product of products; let i = index" class="section">
         <div class="section-left inline-block">
             <img class="product-image" [src]="product.url">
-            <div>{{product.offerText}}</div>
+            <div style="padding-top:10px; ">{{product.offerText}}</div>
         </div>
         <div class="section-right inline-block">
                 <div class="brand-div">{{product.brandName}}</div>
@@ -13,9 +13,11 @@
                 <div style="font-weight: bold;">Rs {{product.mrf}}</div>
                 <div class="button-div">
                     <app-button [button]="cartButton" (click)="increaseCartItem(product.pid,i)" class="inline-block"></app-button>
-                    <app-button [button]="addButton" (click)="increaseCartItem(product.pid,i)" class="inline-block"></app-button>
-                    <span class = "individual-count inline-block">{{product.value}}</span>
-                    <app-button [button]="reduceButton" (click)="reduceCartItem(product.pid,i)" class="inline-block"></app-button>
+                    <div class="inline-block float-right">
+                        <app-button [button]="addButton" (click)="increaseCartItem(product.pid,i)" class="inline-block"></app-button>
+                        <span class = "individual-count inline-block">{{product.value}}</span>
+                        <app-button [button]="reduceButton" (click)="reduceCartItem(product.pid,i)" class="inline-block"></app-button>
+                    </div>
                 </div>
         </div>
     </div>

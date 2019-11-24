@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 .product-image{
-    width: 42%;
-    height: 59%;
+    width: 50%;
+    height: 50%;
 }
 
 .product-list{
@@ -25,7 +25,7 @@
 }
 
 .footer-text{
-    width : 70%;
+    width : 50%;
 }
 
 .footer-text > div{
@@ -34,7 +34,8 @@
 }
 
 .footer-button{
-    width : 10%;
+    width : 30%;
+    float: right;
 }
 
 .inline-block{
@@ -53,7 +54,7 @@
   }
 
 .section-right{
-    width: 30%;
+    width: 40%;
     padding: 20px;
 }
 
@@ -62,7 +63,7 @@
 }
 
 .section-left{
-    width: 40%;
+    width: 30%;
     padding: 20px;
 }
 
@@ -97,7 +98,7 @@
     border : solid #72D713;
     border-radius: 5px;
     font-weight: bold;
-    width: 70%;
+    padding: 6px 30px;
 }
 
 .add-button{
@@ -120,6 +121,7 @@
     border-radius: 5px;
     font-weight: bold;
     height: 35px;
+    padding: 6px 40px;
 }
 
 .button{
@@ -127,3 +129,23 @@
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* media queries */
+
+@media (max-width: 803px){
+    .checkout-button{
+        padding: 2px 10px;
+    }
+}
+
+@media (max-width: 503px){
+    .checkout-button{
+        padding: 0px 0px;
+    }
+}
+
+@media (max-width: 410px){
+    .footer-button{
+        display: contents;
+    }
+}
