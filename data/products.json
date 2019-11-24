@@ -6,7 +6,7 @@
         "quantity" : "1 Kg",
         "price" : 53,
         "mrf" : 48,
-        "url" : "./assets/snickers.jpg",
+        "url" : "./assets/nescafe-coffee.jpg",
         "offerText" : "18% OFF"
     },
     {
@@ -16,7 +16,7 @@
         "quantity" : "1 Kg",
         "price" : 104,
         "mrf" : 98,
-        "url" : "./assets/snickers.jpg",
+        "url" : "./assets/quaker-oats.jpg",
         "offerText" : "21% OFF"
     },
     {
@@ -26,7 +26,7 @@
         "quantity" : "1 kg",
         "price" : 78,
         "mrf" : 65,
-        "url" : "./assets/snickers.jpg",
+        "url" : "./assets/surf-excel.jpg",
         "offerText" : "16% OFF"
     },
     {
@@ -36,7 +36,7 @@
         "quantity" : "1 Kg",
         "price" : 89,
         "mrf" : 77,
-        "url" : "./assets/snickers.jpg",
+        "url" : "./assets/belvita.jpg",
         "offerText" : "18% OFF"
     },
     {
@@ -46,7 +46,7 @@
         "quantity" : "500 ml",
         "price" : 35,
         "mrf" : 30,
-        "url" : "./assets/snickers.jpg",
+        "url" : "./assets/cola.jpg",
         "offerText" : "18% OFF"
     },
     {
@@ -56,7 +56,7 @@
         "quantity" : "50 g",
         "price" : 20,
         "mrf" : 18,
-        "url" : "./assets/snickers.jpg",
+        "url" : "./assets/pringles.jpg",
         "offerText" : "9% OFF"
     },
     {
@@ -65,7 +65,7 @@
         "productName" : "Snickers",
         "quantity" : "1",
         "price" : 35,
-        "mrf" : "30",
+        "mrf" : 35,
         "url" : "./assets/snickers.jpg",
         "offerText" : ""
     },
@@ -76,7 +76,7 @@
         "quantity" : "1 kg",
         "price" : 224,
         "mrf" : 202,
-        "url" : "./assets/snickers.jpg",
+        "url" : "./assets/dexolac.jpg",
         "offerText" : "18% OFF"
     },
     {
@@ -86,7 +86,7 @@
         "quantity" : "500 g",
         "price" : 174,
         "mrf" : 156,
-        "url" : "./assets/snickers.jpg",
+        "url" : "./assets/cheerios.jpg",
         "offerText" : "20% OFF"
     },
     {
@@ -95,8 +95,8 @@
         "productName" : "Corn flakes",
         "quantity" : "1 kg",
         "price" : 78,
-        "mrf" : 75,
-        "url" : "./assets/snickers.jpg",
+        "mrf" : 78,
+        "url" : "./assets/kellogs.jpg",
         "offerText" : ""
     }
 ]
